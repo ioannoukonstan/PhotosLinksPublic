@@ -37,6 +37,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .cover h1 {
@@ -55,7 +57,7 @@
     font-size: 16px;
     opacity: 0.85;
     max-width: 600px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
   }
 
   .cover .version {
@@ -73,6 +75,8 @@
     gap: 40px;
     font-size: 12px;
     opacity: 0.65;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .cover .footer-bar span { white-space: nowrap; }
@@ -207,7 +211,7 @@
     <span><strong>worldofwork™</strong></span>
     <span>Hogehilweg 19, 1101CB Amsterdam, The Netherlands</span>
     <span>+31 (0)20 82 00 801</span>
-    <span>hello@worldofwork.nl</span>
+    <span><a href="mailto:hello@worldofwork.nl" style="color: var(--white); text-decoration: none;">hello@worldofwork.nl</a></span>
   </div>
 </div>
 
@@ -452,36 +456,9 @@
     </ul>
   </div>
 
-  <!-- Signature Block -->
-  <div class="signature-block">
-    <h2>Agreement</h2>
-    <p style="margin-bottom: 24px; color: var(--text-light); font-size: 13px;">By signing the Statement of Work (SOW), both parties confirm acceptance of these General Terms & Conditions.</p>
-    <div class="sig-grid">
-      <div class="sig-col">
-        <h3>Client</h3>
-        <div class="sig-field">Company name: ___________________________</div>
-        <div class="sig-field">Signature: ___________________________</div>
-        <div class="sig-field">Name: ___________________________</div>
-        <div class="sig-field">Title: ___________________________</div>
-        <div class="sig-field">Date: ___________________________</div>
-      </div>
-      <div class="sig-col">
-        <h3>worldofwork™ (Vroom Consultancy b.v.)</h3>
-        <div class="sig-field">&nbsp;</div>
-        <div class="sig-field">Signature: ___________________________</div>
-        <div class="sig-field">Name: ___________________________</div>
-        <div class="sig-field">Title: ___________________________</div>
-        <div class="sig-field">Date: ___________________________</div>
-      </div>
-    </div>
-  </div>
+
 
 </div>
 
 <div class="page-footer">
-  <span>worldofwork™ &nbsp;|&nbsp; Vroom Consultancy b.v.</span>
-  <span>Hogehilweg 19, 1101CB Amsterdam &nbsp;|&nbsp; KvK 34272912</span>
-</div>
-
-</body>
-</html>
+  <span>worldofwork™ &nbsp;|&nbsp; Vroom
